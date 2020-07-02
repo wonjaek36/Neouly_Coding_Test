@@ -8,7 +8,7 @@ def connect_mongodb(host, port):
 
 def get_database(client, db_name):
 	#TODO return database of mongodb
-	return client[db_name]
+	return None
 
 def get_collection(db, coll_name):
 	return db[coll_name]
@@ -16,7 +16,7 @@ def get_collection(db, coll_name):
 def get_average_bytes(coll):
 	avg = 0
 	#TODO using collection.find()
-	for doc in coll.find():
+	for doc in None:
 		pass
 
 if __name__ == "__main__":
