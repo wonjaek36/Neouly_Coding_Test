@@ -1,3 +1,10 @@
 .idea
 java.iml
 target
+
+bin
+.classpath
+.project
+.settings
+
+venv
